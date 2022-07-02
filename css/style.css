@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+header, section, footer, a, p, div, form, input {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: rgba(78,189,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 63px;
+    padding-bottom: 145px;
+}
+
+.logo {
+    
+}
+.title {
+    margin-top: 140px;
+    width: 490px;
+    line-height: 40px;
+    font-size: 35px;
+    color: white;
+}
+.title > p {
+    margin-top: 40px;
+    font-size: 79px;
+}
+.intro {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 400px;
+    font-size: 16px;
+    color: #fff;
+}
+.btn {
+    text-decoration: none;
+    background: #ffd429;
+    color: #2e2a1b;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 222px;
+    padding: 22px;
+}
+.btn:hover {
+    background: #d3ab0b;
+    cursor: pointer;
+}
+.wrapper {
+    margin-top: 57px;
+    display: flex;
+}
+.desktop {
+    margin-left: 95px;
+}
+.before {
+    padding-top: 108px;
+    text-align: center;
+}
+.section-title {
+    font-size: 30px;
+    color: #201b2d;
+}
+.wait-before {
+    text-align: center;
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 123px;
+}
+
+.success {
+    width: 300px;
+}
+
+
+.success-title {
+    margin-top: 31px;
+    font-size: 19px;
+    color: #201b2d;
+}
+
+.success-text {
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.before-ticket {
+    padding-top: 110px;
+    padding-bottom: 102px;
+    background: #ecf3f8;
+    text-align: center;
+}
+
+.bt-title {
+    font-size: 30px;
+    color: #201b2d;
+}
+
+.bt-form {
+    margin-top: 50px;
+    text-align: center;
+}
+.bt-form input {
+    border: 1px solid #bebfbf;
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #85828c;
+    width: 345px;
+    padding: 16px;
+    margin-top: 15px;
+    margin-left: 413px;
+}
+
+button.btn {
+    margin-top: 15px;
+    border: 0;
+    width: 345px;
+}
+
+.footer {
+    background: #164d7a;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
